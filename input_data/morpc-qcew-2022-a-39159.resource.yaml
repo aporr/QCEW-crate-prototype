@@ -1,0 +1,19 @@
+name: morpc-qcew-2022-a-39159
+type: table
+title: QCEW Data for Union County, 2022, Annual
+description: Annual employment and wage data for Union county in 2022, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2022-a-39159.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 090ae3ad16247f08d433c6302d484eb6
+bytes: 155399
+rows: 1150
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

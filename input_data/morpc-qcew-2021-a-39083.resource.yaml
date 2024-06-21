@@ -1,0 +1,19 @@
+name: morpc-qcew-2021-a-39083
+type: table
+title: QCEW Data for Knox County, 2021, Annual
+description: Annual employment and wage data for Knox county in 2021, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2021-a-39083.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: fc7e934d7e193858e2a546a3b175f171
+bytes: 154161
+rows: 1160
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

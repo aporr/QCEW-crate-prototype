@@ -1,0 +1,19 @@
+name: morpc-qcew-2020-a-39073
+type: table
+title: QCEW Data for Hocking County, 2020, Annual
+description: Annual employment and wage data for Hocking county in 2020, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2020-a-39073.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 2242bc4e5506b6d60d3aa00b1183357d
+bytes: 101771
+rows: 782
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

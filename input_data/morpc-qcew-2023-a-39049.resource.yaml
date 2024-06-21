@@ -1,0 +1,19 @@
+name: morpc-qcew-2023-a-39049
+type: table
+title: QCEW Data for Franklin County, 2023, Annual
+description: Annual employment and wage data for Franklin county in 2023, derived
+  from the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2023-a-39049.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 801185c444ad1d290bca5bfb993af327
+bytes: 353527
+rows: 2266
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

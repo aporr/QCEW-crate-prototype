@@ -1,0 +1,19 @@
+name: morpc-qcew-2023-a-39097
+type: table
+title: QCEW Data for Madison County, 2023, Annual
+description: Annual employment and wage data for Madison county in 2023, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2023-a-39097.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: c2e6d306be88f846e527fd16e0fc854d
+bytes: 138629
+rows: 1029
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

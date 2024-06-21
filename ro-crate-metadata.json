@@ -1,0 +1,214 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": [
+        {
+          "@id": "https://w3id.org/ro/crate/1.1"
+        },
+        {
+          "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0"
+        }
+      ],
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Compiled QCEW County Data, Annual, 2020-2023 (wide form)",
+      "description": "Employment and wage data for counties in MOPRC region, derived from the U.S. Bureau of Labor Statistics.",
+	  "publisher": {"@id": "https://morpc.org"},
+      "datePublished": "2024-06-20T09:20:00Z",
+      "hasPart": [
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "standardize_qcew_data.ipynb"
+        },
+        {
+          "@id": "standardize_qcew_data.html"
+        },
+        {
+          "@id": "standardize_qcew_data.cwl"
+        },
+        {
+          "@id": "standardize_qcew_data.drawio"
+        },
+        {
+          "@id": "standardize_qcew_data.drawio.pdf"
+        },
+        {
+          "@id": "output_data/qcew_annual_wide.csv"
+        },		
+        {
+          "@id": "output_data/morpc-qcew-annual.schema.yaml"
+        },
+        {
+          "@id": "output_data/qcew_annual_wide.resource.yaml"
+        },		
+        {
+          "@id": "input_data/"
+        }
+      ],
+      "license": {
+        "@id": "http://spdx.org/licenses/CC0-1.0"
+      },
+      "mainEntity": {
+        "@id": "standardize_qcew_data.cwl"
+      },
+      "subjectOf": {
+        "@id": "ro-crate-preview.html"
+      }
+    },
+
+    {
+      "@id": "README.md",
+      "@type": "File",
+      "about": "./",
+      "encodingFormat": "text/markdown"
+    },
+
+    {
+      "@id": "standardize_qcew_data.cwl",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "HowTo"
+      ],
+      "programmingLanguage": {
+        "@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl"
+      },
+      "name": "QCEW Standardization workflow description",
+	  "description": "Workflow description in Common Workflow Language format",
+      "image": {
+        "@id": "standardize_qcew_data.drawio.pdf"
+      }
+    },
+    {
+      "@id": "standardize_qcew_data.drawio.pdf",
+      "name": "QCEW Standardization Workflow diagram (PDF export)",
+      "description": "Export of standardize_qcew_data.drawio in PDF format",
+      "@type": [
+        "File",
+        "ImageObject"
+      ],
+      "encodingFormat": "application/pdf",
+      "name": "Diagram of the Hello World workflow"
+    },
+    {
+      "@id": "standardize_qcew_data.drawio",
+      "name": "QCEW Standardization Workflow diagram",
+      "description": "Process flow diagram in draw.io format",
+      "@type": [
+        "File",
+        "ImageObject"
+      ]
+    },
+	{
+	  "@id": "standardize_qcew_data.ipynb",
+	  "name": "QCEW standardization script",
+	  "description": "Script implemented as a Jupyter notebook with inline documentation",
+	  "@type": [ "File", "SoftwareApplication"],
+      "encodingFormat": "application/x-ipynb+json"
+	},
+	{
+	  "@id": "standardize_qcew_data.html",
+	  "name": "QCEW standardization script (HTML export)",
+	  "description": "Export of standardize_qcew_data.ipynb in HTML format",
+	  "type": "File",
+      "about": {
+        "@id": "standardize_qcew_data.ipynb"
+      },
+      "encodingFormat": "text/html"	
+	},
+	{
+	  "@id": "output_data/qcew_annual_wide.csv",
+	  "name": "QCEW standardization script (HTML export)",
+	  "description": "Export of standardize_qcew_data.ipynb in HTML format",
+	  "type": "File",
+      "encodingFormat": "text/csv"
+	},		
+	{
+	  "@id": "output_data/morpc-qcew-annual.schema.yaml",
+	  "name": "morpc-qcew-annual_wide.csv schema",
+	  "description": "Schema for morpc-qcew-annual_wide.csv in Frictionless TableSchema format",
+	  "type": "File",
+      "encodingFormat": "application/yaml",
+      "about": {
+        "@id": "output_data/qcew_annual_wide.csv"
+      }	  
+	},
+	{
+	  "@id": "output_data/qcew_annual_wide.resource.yaml",
+	  "name": "morpc-qcew-annual_wide.csv resource descriptor",
+	  "description": "Resource discriptor for morpc-qcew-annual_wide.csv in Frictionless Resource format",
+	  "type": "File",
+      "encodingFormat": "application/yaml",
+      "about": {
+        "@id": "output_data/qcew_annual_wide.csv"
+      }
+	},		
+	{
+	  "@id": "input_data/",
+	  "name": "Input data files for QCEW standardization script",
+	  "description": "Directory containing input data consumed by QCEW standardization script as produced by workflow morpc-qcew-fetch or retrieved manually from the Bureau of Labor Statistics QCEW website.",
+	  "type": "Dataset" 
+	},
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "encodingFormat": "text/html"
+    },
+    {
+      "@id": "https://morpc.org",
+      "@type": "Organization",
+      "name": "Mid-Ohio Regional Planning Commission",
+	  "url": "https://www.morpc.org/about-morpc/"
+    },  	
+    {
+      "@id": "https://w3id.org/ro/crate/1.1",
+      "@type": "Guide",
+      "name": "RO-Crate specification",
+      "version": "1.1.1"
+    },
+    {
+      "@id": "https://w3id.org/workflowhub/",
+      "@type": "Organization",
+      "name": "WorkflowHub project"
+    },    
+    {
+      "@id": "https://w3id.org/workflowhub/workflow-ro-crate/1.0",
+      "@type": "Guide",
+      "name": "Workflow RO-Crate profile",
+      "version": "1.0.0"
+    },
+	{
+		"@id": "https://w3id.org/workflowhub/workflow-ro-crate#cwl",
+		"@type": "ComputerLanguage",
+		"name": "Common Workflow Language",
+		"alternateName": "CWL",
+		"identifier": {
+			"@id": "https://w3id.org/cwl/v1.2/"
+		},
+		"url": {
+			"@id": "https://www.commonwl.org/"
+		}
+	},
+    {
+      "@id": "http://spdx.org/licenses/CC0-1.0",
+      "@type": "CreativeWork",
+      "description": "This is a human-readable summary of the Legal Code (read the full text).\n\nNo Copyright\n\n    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.\n\n    You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.\n\nThis license is acceptable for Free Cultural Works.\nOther Information\n\n    In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.\n    Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.\n    When using or citing the work, you should not imply endorsement by the author or the affirmer.\n",
+      "identifier": "CC0-1.0",
+      "name": "Creative Commons Zero v1.0 Universal",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}

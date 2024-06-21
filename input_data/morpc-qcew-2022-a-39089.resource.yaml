@@ -1,0 +1,19 @@
+name: morpc-qcew-2022-a-39089
+type: table
+title: QCEW Data for Licking County, 2022, Annual
+description: Annual employment and wage data for Licking county in 2022, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2022-a-39089.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 3a38ffb72824922fdf190a76cc21c003
+bytes: 211173
+rows: 1514
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

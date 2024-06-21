@@ -1,0 +1,143 @@
+fields:
+- description: 5-character FIPS code
+  maxLength: 5
+  name: area_fips
+  type: string
+- description: 1-character ownership code
+  maxLength: 1
+  name: own_code
+  type: string
+- description: 6-character industry code (NAICS, SuperSector)
+  maxLength: 6
+  name: industry_code
+  type: string
+- description: 2-character aggregation level code
+  maxLength: 2
+  name: agglvl_code
+  type: string
+- description: 1-character size code
+  maxLength: 1
+  name: size_code
+  type: string
+- description: 4-character year
+  maxLength: 4
+  name: year
+  type: string
+- description: 1-character quarter (always A for annual)
+  maxLength: 1
+  name: qtr
+  type: string
+- description: 1-character disclosure code (either ' ' (blank) or 'N' not disclosed)
+  maxLength: 1
+  name: disclosure_code
+  type: string
+- description: Annual average of quarterly establishment counts for a given year
+  name: annual_avg_estabs
+  type: number
+- description: Annual average of monthly employment levels for a given year
+  name: annual_avg_emplvl
+  type: number
+- description: Sum of the four quarterly total wage levels for a given year
+  name: total_annual_wages
+  type: number
+- description: Sum of the four quarterly total taxable wage totals for a given year
+  name: taxable_annual_wages
+  type: number
+- description: Sum of the four quarterly contribution totals for a given year
+  name: annual_contributions
+  type: number
+- description: Average weekly wage based on the 12-monthly employment levels and total
+    annual wage levels
+  name: annual_avg_wkly_wage
+  type: number
+- description: Average annual pay based on employment and wage levels for a given
+    year
+  name: avg_annual_pay
+  type: number
+- description: 1-character location-quotient disclosure code (either '' (blank) or
+    'N' not disclosed)
+  maxLength: 1
+  name: lq_disclosure_code
+  type: string
+- description: Location quotient of annual average establishment count relative to
+    the U.S. (Rounded to the hundredths place)
+  name: lq_annual_avg_estabs
+  type: number
+- description: Location quotient of annual average employment relative to the U.S.
+    (Rounded to the hundredths place)
+  name: lq_annual_avg_emplvl
+  type: number
+- description: Location quotient of total annual wages relative to the U.S. (Rounded
+    to the hundredths place)
+  name: lq_total_annual_wages
+  type: number
+- description: Location quotient of taxable annual wages relative to the U.S. (Rounded
+    to the hundredths place)
+  name: lq_taxable_annual_wages
+  type: number
+- description: Location quotient of total annual contributions relative to the U.S.
+    (Rounded to the hundredths place)
+  name: lq_annual_contributions
+  type: number
+- description: Location quotient of annual average weekly wage relative to the U.S.
+    (Rounded to the hundredths place)
+  name: lq_annual_avg_wkly_wage
+  type: number
+- description: Location quotient of annual average pay relative to the U.S. (Rounded
+    to the hundredths place)
+  name: lq_avg_annual_pay
+  type: number
+- description: 1-character over-the-year disclosure code (either ' ' (blank) or 'N'
+    not disclosed)
+  maxLength: 1
+  name: oty_disclosure_code
+  type: string
+- description: Over-the-year change in annual average establishments for a given year
+  name: oty_annual_avg_estabs_chg
+  type: number
+- description: Over-the-year percent change in annual average establishments for a
+    given year (Rounded to the tenths place)
+  name: oty_annual_avg_estabs_pct_chg
+  type: number
+- description: Over-the-year change in annual average employment for a given year
+  name: oty_annual_avg_emplvl_chg
+  type: number
+- description: Over-the-year percent change in annual average employment for a given
+    year (Rounded to the tenths place)
+  name: oty_annual_avg_emplvl_pct_chg
+  type: number
+- description: Over-the-year change in the total annual wages for a given year
+  name: oty_total_annual_wages_chg
+  type: number
+- description: Over-the-year percent change in total annual wages for a given year
+    (Rounded to the tenths place)
+  name: oty_total_annual_wages_pct_chg
+  type: number
+- description: Over-the-year change in taxable annual wages for a given year
+  name: oty_taxable_annual_wages_chg
+  type: number
+- description: Over-the-year percent change in taxable annual wages for a given year
+    (Rounded to the tenths place)
+  name: oty_taxable_annual_wages_pct_chg
+  type: number
+- description: Over-the-year change in annual contributions for a given year
+  name: oty_annual_contributions_chg
+  type: number
+- description: Over-the-year percent change in annual contributions for a given year
+    (Rounded to the tenths place)
+  name: oty_annual_contributions_pct_chg
+  type: number
+- description: Over-the-year change in annual average weekly wage for a given year
+  name: oty_annual_avg_wkly_wage_chg
+  type: number
+- description: Over-the-year percent change in annual average weekly wage for a given
+    year (Rounded to the tenths place)
+  name: oty_annual_avg_wkly_wage_pct_chg
+  type: number
+- description: Over-the-year change in average annual pay for a given year
+  name: oty_avg_annual_pay_chg
+  type: number
+- description: Over-the-year percent change in average annual pay for a given year
+    (Rounded to the tenths place)
+  name: oty_avg_annual_pay_pct_chg
+  type: number

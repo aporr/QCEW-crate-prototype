@@ -1,0 +1,19 @@
+name: morpc-qcew-2020-a-39127
+type: table
+title: QCEW Data for Perry County, 2020, Annual
+description: Annual employment and wage data for Perry county in 2020, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2020-a-39127.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: e730c3fa083102a393e3ee9b221b49d7
+bytes: 99764
+rows: 768
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

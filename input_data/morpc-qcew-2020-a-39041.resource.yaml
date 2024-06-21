@@ -1,0 +1,19 @@
+name: morpc-qcew-2020-a-39041
+type: table
+title: QCEW Data for Delaware County, 2020, Annual
+description: Annual employment and wage data for Delaware county in 2020, derived
+  from the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2020-a-39041.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: e4fc34ac4e3ff50bad63c87218fcddf0
+bytes: 222301
+rows: 1553
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

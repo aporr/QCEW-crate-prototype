@@ -1,0 +1,19 @@
+name: morpc-qcew-2020-a-39091
+type: table
+title: QCEW Data for Logan County, 2020, Annual
+description: Annual employment and wage data for Logan county in 2020, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2020-a-39091.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 0a20a909d646d7bd92caaf060be8d77c
+bytes: 133308
+rows: 1016
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

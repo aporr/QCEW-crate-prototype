@@ -1,0 +1,19 @@
+name: morpc-qcew-2021-a-39129
+type: table
+title: QCEW Data for Pickaway County, 2021, Annual
+description: Annual employment and wage data for Pickaway county in 2021, derived
+  from the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2021-a-39129.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: e4f734227f6dfe5eecb2291445126bed
+bytes: 133830
+rows: 1020
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

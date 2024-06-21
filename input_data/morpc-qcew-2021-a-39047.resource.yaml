@@ -1,0 +1,19 @@
+name: morpc-qcew-2021-a-39047
+type: table
+title: QCEW Data for Fayette County, 2021, Annual
+description: Annual employment and wage data for Fayette county in 2021, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2021-a-39047.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: 7c54f5b09f709537fe46329c80b77e66
+bytes: 109721
+rows: 841
+schema: morpc-qcew-annual.schema.yaml
+columns: 38

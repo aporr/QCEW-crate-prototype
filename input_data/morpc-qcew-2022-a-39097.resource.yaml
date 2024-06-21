@@ -1,0 +1,19 @@
+name: morpc-qcew-2022-a-39097
+type: table
+title: QCEW Data for Madison County, 2022, Annual
+description: Annual employment and wage data for Madison county in 2022, derived from
+  the U.S. Bureau of Labor Statistics.
+profile: tabular-data-resource
+sources:
+  - title: Quarterly Census of Employment and Wages, U.S. Bureau of Labor Statistics
+    path: https://www.bls.gov/cew/additional-resources/open-data/csv-data-slices.htm
+path: morpc-qcew-2022-a-39097.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+hash: d557b1e2abc704fe1c326e1141458bde
+bytes: 133645
+rows: 1001
+schema: morpc-qcew-annual.schema.yaml
+columns: 38
