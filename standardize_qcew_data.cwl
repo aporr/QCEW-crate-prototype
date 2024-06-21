@@ -9,7 +9,7 @@ inputs:
 outputs:
   standardQCEWDataset:
     type: File
-	outputSource: standardizeQCEWData/standardQCEWDataset
+    outputSource: standardizeQCEWData/standardQCEWDataset
 
 steps:
   standardizeQCEWData:
