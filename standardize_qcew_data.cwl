@@ -9,7 +9,7 @@ inputs:
 outputs:
   standardQCEWDataset:
     type: File
-    path: ./output_data/qcew_annual_wide.csv
+    outputSource: standarizeQCEWData/standardQCEWDataset
 
 steps:
   standarizeQCEWData:
@@ -18,5 +18,4 @@ steps:
       baseCommand: "jupyter execute standardize_qcew_data.ipynb"
     in: 
       rawQCEWDatasets: rawQCEWDatasets
-    out:
-      standardQCEWDataset: standardQCEWDataset
+    out: [standardQCEWDataset]
