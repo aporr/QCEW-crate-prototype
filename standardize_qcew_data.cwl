@@ -9,10 +9,10 @@ inputs:
 outputs:
   standardQCEWDataset:
     type: File
-    outputSource: standarizeQCEWData/standardQCEWDataset
+	outputSource: standardizeQCEWData/standardQCEWDataset
 
 steps:
-  standarizeQCEWData:
+  standardizeQCEWData:
     run:
       class: CommandLineTool
       baseCommand: "jupyter execute standardize_qcew_data.ipynb"
