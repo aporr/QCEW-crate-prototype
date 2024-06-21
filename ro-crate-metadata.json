@@ -40,7 +40,7 @@
           "@id": "standardize_qcew_data.drawio"
         },
         {
-          "@id": "standardize_qcew_data.drawio.pdf"
+          "@id": "standardize_qcew_data.drawio.svg"
         },
         {
           "@id": "output_data/qcew_annual_wide.csv"
@@ -86,19 +86,18 @@
       "name": "QCEW Standardization workflow description",
 	  "description": "Workflow description in Common Workflow Language format",
       "image": {
-        "@id": "standardize_qcew_data.drawio.pdf"
+        "@id": "standardize_qcew_data.drawio.svg"
       }
     },
     {
-      "@id": "standardize_qcew_data.drawio.pdf",
-      "name": "QCEW Standardization Workflow diagram (PDF export)",
-      "description": "Export of standardize_qcew_data.drawio in PDF format",
+      "@id": "standardize_qcew_data.drawio.svg",
+      "name": "QCEW Standardization Workflow diagram (SVG export)",
+      "description": "Export of standardize_qcew_data.drawio in SVG format",
       "@type": [
         "File",
         "ImageObject"
       ],
-      "encodingFormat": "application/pdf",
-      "name": "Diagram of the Hello World workflow"
+      "encodingFormat": "image/svg+xml",
     },
     {
       "@id": "standardize_qcew_data.drawio",
@@ -120,7 +119,7 @@
 	  "@id": "standardize_qcew_data.html",
 	  "name": "QCEW standardization script (HTML export)",
 	  "description": "Export of standardize_qcew_data.ipynb in HTML format",
-	  "type": "File",
+	  "@type": "File",
       "about": {
         "@id": "standardize_qcew_data.ipynb"
       },
@@ -130,14 +129,14 @@
 	  "@id": "output_data/qcew_annual_wide.csv",
 	  "name": "QCEW standardization script (HTML export)",
 	  "description": "Export of standardize_qcew_data.ipynb in HTML format",
-	  "type": "File",
+	  "@type": "File",
       "encodingFormat": "text/csv"
 	},		
 	{
 	  "@id": "output_data/morpc-qcew-annual.schema.yaml",
 	  "name": "morpc-qcew-annual_wide.csv schema",
 	  "description": "Schema for morpc-qcew-annual_wide.csv in Frictionless TableSchema format",
-	  "type": "File",
+	  "@type": "File",
       "encodingFormat": "application/yaml",
       "about": {
         "@id": "output_data/qcew_annual_wide.csv"
@@ -147,7 +146,7 @@
 	  "@id": "output_data/qcew_annual_wide.resource.yaml",
 	  "name": "morpc-qcew-annual_wide.csv resource descriptor",
 	  "description": "Resource discriptor for morpc-qcew-annual_wide.csv in Frictionless Resource format",
-	  "type": "File",
+	  "@type": "File",
       "encodingFormat": "application/yaml",
       "about": {
         "@id": "output_data/qcew_annual_wide.csv"
@@ -157,7 +156,7 @@
 	  "@id": "input_data/",
 	  "name": "Input data files for QCEW standardization script",
 	  "description": "Directory containing input data consumed by QCEW standardization script as produced by workflow morpc-qcew-fetch or retrieved manually from the Bureau of Labor Statistics QCEW website.",
-	  "type": "Dataset" 
+	  "@type": "Dataset" 
 	},
     {
       "@id": "ro-crate-preview.html",
